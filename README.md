@@ -1,7 +1,7 @@
 # SAE PONEY
 
 ## Membre du projet
-Julian Marques (chef de projet)
+Julian Marques (chef de projet)  
 Chris Mathever (it's me)
 
 ##  Notre realisation 
