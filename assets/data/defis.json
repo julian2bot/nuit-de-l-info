@@ -1,0 +1,20 @@
+{
+    "Défi1":{
+        "image" : "/assets/images/defis/poisson_bleu.png",
+        "score" : 0,
+        "lien" : "",
+        "titre" : "",
+        "description" : "",
+        "corps" : "",
+        "texteBouton" : ""
+    },
+    "Défi2":{
+        "image" : "/assets/images/defis/poisson_rouge.png",
+        "score" : 0,
+        "lien" : "",
+        "titre" : "",
+        "description" : "",
+        "corps" : "",
+        "texteBouton" : ""
+    }
+}

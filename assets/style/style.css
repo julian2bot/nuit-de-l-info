@@ -1,0 +1,23 @@
+/* Défis */
+
+.imageDefis{
+    height: 10vh;
+    cursor: pointer;
+}
+
+#lesDefis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unDefisInfo{
+    width: 10vw;
+    height: 20vh;
+    background-color: red;
+}
+
+.unDefis.close .unDefisInfo{
+    display: none;
+}
