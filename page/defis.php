@@ -1,3 +1,12 @@
+<?php
+    require_once __DIR__."/./../utils/start.php";
+    // print_r($_SESSION);
+    echo "<a href='/page/resetPoint.php'>Reset Point</a>";
+
+    echo "Score : ".$_SESSION["user"]["score"];
+    
+?>
+
 <div id="lesDefis">
 
     <?php
@@ -5,14 +14,23 @@
         $defis = getDefis(__DIR__."/./../assets/data/defis.json");
 
         foreach($defis as $clef => $defi){
-            echo "<div class='unDefis close'>";
+            if($defi["scoreNecessaire"] <= $_SESSION["user"]["score"]){
+                echo "<div class='unDefis close available'>";
+            }
+            else{
+                echo "<div class='unDefis close'>";
+            }
             echo "<img class='imageDefis' src=$defi[image] alt=$defi[titre]>";
 
             echo "<div class='unDefisInfoCourte'>";
             echo "<h2>$defi[titre]</h2>";
             echo "<h3>$defi[corps]</h3>";
+            if($defi["scoreNecessaire"] > $_SESSION["user"]["score"]){
+                echo "<p>Score nécessaire : $defi[scoreNecessaire]</p>";
+            }
             echo "</div>";
 
+            
             echo "<div class='unDefisInfo'>";
             echo "<h2>$defi[titre]</h2>";
             echo "<h3>$defi[corps]</h3>";

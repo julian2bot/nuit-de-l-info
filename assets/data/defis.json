@@ -1,8 +1,8 @@
 {
     "Défi1":{
         "image" : "/assets/images/defis/poisson_bleu.png",
-        "score" : 0,
-        "lien" : "",
+        "scoreNecessaire" : 0,
+        "lien" : "/page/pageDefis.php?defis=Défi1",
         "titre" : "Defi 1",
         "description" : "Il y a un problème ici",
         "corps" : "Partie du Coeur",
@@ -10,8 +10,8 @@
     },
     "Défi2":{
         "image" : "/assets/images/defis/poisson_rouge.png",
-        "score" : 0,
-        "lien" : "",
+        "scoreNecessaire" : 1,
+        "lien" : "/page/pageDefis.php?defis=Défi2",
         "titre" : "Defi 2",
         "description" : "Aussi ici",
         "corps" : "Partie du poumon",

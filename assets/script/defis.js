@@ -5,11 +5,13 @@ document.addEventListener("DOMContentLoaded", function() {
         let image = defis.getElementsByTagName("img")[0];
 
         image.addEventListener("click",function(){
-            if(defis.className.split(' ').indexOf("close")>-1){
-                defis.classList.remove("close");
-            }
-            else{
-                defis.classList.add("close");
+            if(defis.className.split(' ').indexOf("available")>-1){
+                if(defis.className.split(' ').indexOf("close")>-1){
+                    defis.classList.remove("close");
+                }
+                else{
+                    defis.classList.add("close");
+                }
             }
         })
     }
