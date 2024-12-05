@@ -5,5 +5,5 @@
     
     resetScore();
 
-    header("Location:/");
+    header("Location: ../");
 ?>

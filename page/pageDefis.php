@@ -5,6 +5,7 @@
     $lesDefis = getDefis(__DIR__."/./../assets/data/defis.json");
 
     print_r($_SESSION);
+    print_r($_GET);
 
     if(isset($_GET["defis"])){
         $defis = $lesDefis[$_GET["defis"]];
@@ -13,7 +14,7 @@
 
             // Defis
 
-            header("Location:/");
+            header("Location: ../");
         }
     }
     else{
