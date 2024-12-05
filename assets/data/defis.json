@@ -3,18 +3,18 @@
         "image" : "/assets/images/defis/poisson_bleu.png",
         "score" : 0,
         "lien" : "",
-        "titre" : "",
-        "description" : "",
-        "corps" : "",
-        "texteBouton" : ""
+        "titre" : "Defi 1",
+        "description" : "Il y a un problème ici",
+        "corps" : "Partie du Coeur",
+        "texteBouton" : "Résoudre le problème"
     },
     "Défi2":{
         "image" : "/assets/images/defis/poisson_rouge.png",
         "score" : 0,
         "lien" : "",
-        "titre" : "",
-        "description" : "",
-        "corps" : "",
-        "texteBouton" : ""
+        "titre" : "Defi 2",
+        "description" : "Aussi ici",
+        "corps" : "Partie du poumon",
+        "texteBouton" : "Résoudre ce problème là"
     }
 }

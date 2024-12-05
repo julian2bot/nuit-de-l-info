@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     for (const defis of lesDefis) {
         let image = defis.getElementsByTagName("img")[0];
-        console.log("ui");
+
         image.addEventListener("click",function(){
             if(defis.className.split(' ').indexOf("close")>-1){
                 defis.classList.remove("close");
