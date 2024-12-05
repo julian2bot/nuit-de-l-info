@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 200vh;
+    /* background-color:#68BEEB; */
+    background-color:#79CEF7;
+
+}
+
+.ciel{
+    width: 150vw;
+    /* height: 500px; */
+    background-color: #00A0FE;
+    /* meteo code ici */
+    position: relative;
+    animation: lancement 4s forwards ease-in-out;
+
+}
+
+.container {
+    position: absolute; 
+    /* bottom: 0; */
+    /* top: 225px; */
+    /* top: 100px; */
+    left: 0;
+    width: 150vw;
+    display: flex;
+    flex-direction: row;
+    animation: lancementContainer 4s forwards ease-in-out;
+
+}
+
+.wave-middle {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    background: linear-gradient(180deg, #005b97d4 50%, transparent 50%);
+    mask-image: radial-gradient(circle, #000 50%, transparent 50%);
+    animation: wave-animation 4s infinite ease-in-out;
+}
+
+.container:nth-of-type(2) .wave-middle {
+    right:100px;
+    /* height: calc(100% - 30px); */
+
+    background: linear-gradient(180deg, #1e97d3e3 50%, transparent 50%);
+    animation: wave-animation2 4s infinite ease-in-out;
+}
+
+.container:nth-of-type(3) .wave-middle {
+    right:100px;
+    background: linear-gradient(180deg, #60c9feb3 50%, transparent 50%);
+    animation: wave-animation2 4s infinite ease-in-out;
+    animation-delay: 1s;
+}
+
+.container:nth-of-type(4) .wave-middle {
+    right:100px;
+    /* height: calc(100% - 30px); */
+
+    background: linear-gradient(180deg, #a1e0ff87 50%, transparent 50%);
+    animation: wave-animation 4s infinite ease-in-out;
+    animation-delay: 1s;
+}
+
+
+
+/* animation droite a gauche */
+@keyframes wave-animation {
+    0% {
+        transform: translateX(0); 
+    }
+    15% {
+        transform: translateX(-25%); 
+    }
+    30% {
+        transform: translateX(10%);  
+    }
+    50% {
+        transform: translateX(-50%); 
+    }
+    65% {
+        transform: translateX(20%);  
+    }
+    80% {
+        transform: translateX(-10%); 
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}
+
+
+@keyframes wave-animation2 {
+    0% {
+        transform: translateX(0); /* Position initiale */
+    }
+    15% {
+        transform: translateX(25%); /* Déplacement rapide vers la droite */
+    }
+    30% {
+        transform: translateX(-10%); /* Retour partiel vers la gauche */
+    }
+    50% {
+        transform: translateX(50%); /* Déplacement lent vers la droite */
+    }
+    65% {
+        transform: translateX(-20%); /* Accélération rapide vers la gauche */
+    }
+    80% {
+        transform: translateX(10%); /* Légère correction vers la droite */
+    }
+    100% {
+        transform: translateX(0); /* Retour à la position initiale */
+    }
+}
+
+
+
+@keyframes lancement {
+    0% {
+        height: 100vh;
+    }
+    100% {
+        height: 50vh;
+    }
+}
+
+
+
+@keyframes lancementContainer {
+    0% {
+        top: calc(100vh - 400px);
+    }
+    100% {
+        top: 100px;
+    }
+}
