@@ -8,17 +8,6 @@
         $_SESSION["user"] = [];
         $_SESSION["user"]["score"] = 0;
     }
-?>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets\style\style.css">
-    <script src="https://cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
-    <title>Nuit de l'info</title>
-</head>
-
-<?php
     // require_once __DIR__."/./../utils/start.php";
 
     require_once __DIR__."/./../utils/getDefis.php";
@@ -28,23 +17,38 @@
         $defis = $lesDefis[$_GET["defis"]];
         if($_SESSION["user"]["score"] >= $defis["scoreNecessaire"]){
             incrementScore($defis);
-
             // Defis
-
-            header("Location: ../");
+            header("Location: ./../");
+            
+            exit;
         }
     }
+
+
 
     if(isset($_GET["defis"])){
         $defis = $lesDefis[$_GET["defis"]];
         if($_SESSION["user"]["score"] >= $defis["scoreNecessaire"]){
+            echo '
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="../assets\style\style.css">
+                <script src="https://cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
+                <title>Nuit de l\'info</title>
+            </head>
+            ';
+            ob_start(); // Active un buffer de sortie pour éviter l'envoi involontaire d'en-têtes
             pageDefis($defis);
+            ob_end_flush(); // Vide le buffer et envoie la sortie
         }
     }
     else{
-        header("Location: ../");
+        header("Location: ./../");
+        exit;
     }
 ?>
+
 
 <?php
     function pageDefis(array $defis){
