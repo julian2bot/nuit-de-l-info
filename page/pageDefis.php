@@ -27,7 +27,7 @@
     function pageDefis(array $defis){
         echo "<a id='retourHome' href='./defis.php'>Retour</a>";
         echo "<div id='pageDefis'>";
-        echo "<h1>Sauvez mon $defis[corps]</h1>";
+        echo "<h1>Sauvez $defis[corps]</h1>";
         echo "<video controls autoplay>";
         echo "<source src="."./..".$defis["defi"]["video"]." type='video/mp4'></source>";
         echo "</video>";
