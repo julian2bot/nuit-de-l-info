@@ -36,7 +36,7 @@
             echo "<h3>".ucfirst($defi["corps"])."</h3>";
             echo "<p>$defi[description]</p>";
             echo "<a href=$defi[lien]>";
-            echo "<input type='submit' value=$defi[texteBouton]>";
+            echo "<input type='submit' value='$defi[texteBouton]'>";
             echo "</a>";
             echo "</div>";
             echo "</div>";
