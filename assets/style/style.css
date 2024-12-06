@@ -139,3 +139,45 @@ body{
         top: 100px;
     }
 }
+/* Défis */
+
+.imageDefis{
+    height: 10vh;
+    cursor: pointer;
+}
+
+#lesDefis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unDefis{
+    display: flex;
+
+}
+
+.unDefisInfo{
+    width: 10vw;
+    height: 20vh;
+    background-color: red;
+}
+
+.unDefisInfoCourte{
+    width: 8vw;
+    min-height: 10vh;
+    background-color: blue;
+}
+
+.unDefis .unDefisInfoCourte{
+    display: none;
+}
+
+.unDefis.close:hover .unDefisInfoCourte{
+    display: block;
+}
+
+.unDefis.close .unDefisInfo{
+    display: none;
+}
