@@ -54,14 +54,14 @@ body{
     animation: wave-animation2 4s infinite ease-in-out;
 }
 
-.container:nth-of-type(3) .wave-middle {
+.container:nth-of-type(4) .wave-middle {
     right:100px;
     background: linear-gradient(180deg, #60c9feb3 50%, transparent 50%);
     animation: wave-animation2 4s infinite ease-in-out;
     animation-delay: 1s;
 }
 
-.container:nth-of-type(4) .wave-middle {
+.container:nth-of-type(5) .wave-middle {
     right:100px;
     /* height: calc(100% - 30px); */
 
@@ -217,7 +217,7 @@ div{
 }
 #help{
     position: fixed;
-    top: 60px;
+    top: 30px;
     left: 10px;
     z-index: 11;
 }
@@ -280,7 +280,7 @@ div{
     left: 0;
     width: 100px; /* Taille de l'image */
     height: auto;
-
+}
 
 #menuMessage{
     width: 50%;

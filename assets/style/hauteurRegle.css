@@ -1,6 +1,7 @@
 /* Règle */
 #rule {
     position: fixed;
+    z-index: 10;
     top: 50px;
     width: 80px; /* Ajusté pour inclure l'espace de la flèche */
     padding-top: 30px;
