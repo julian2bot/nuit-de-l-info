@@ -181,3 +181,15 @@ body{
 .unDefis.close .unDefisInfo{
     display: none;
 }
+
+
+div{
+    z-index: 0;
+}
+
+#leScore{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 11;
+}
