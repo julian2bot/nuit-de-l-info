@@ -9,7 +9,8 @@
         "texteBouton" : "Résoudre le problème",
         "defi":{
             "video" : "/assets/videos/test.mp4",
-            "texte" : ["jnbejde","uhdygeyg"]
+            "texte" : ["jnbejde","uhdygeyg"],
+            "script" : "/assets/script/jeu1.js"
         }
     },
     "Défi2":{

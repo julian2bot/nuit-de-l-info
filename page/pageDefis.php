@@ -43,5 +43,6 @@
         echo "<input id='boutonValider' type='submit' value='Valider le défi'>";
         echo "</form>";
         echo "</div>";
+        echo "<script src="."./..".$defis["defi"]["script"]."></script>";
     }
 ?>
