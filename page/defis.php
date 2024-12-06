@@ -1,7 +1,9 @@
 <?php
     // require_once __DIR__."/./../utils/start.php";
     // print_r($_SESSION);
-    echo "<a id='reset' href='./page/resetPoint.php'>Reset Point</a>";
+    // debug lol
+    // echo "<a id='reset' href='./page/resetPoint.php'>Reset Point</a>";
+
 
     echo "<p id='leScore'> Score : ".$_SESSION["user"]["score"]."</p>";
 
@@ -22,7 +24,7 @@
             else{
                 echo "<div class='unDefis close'>";
             }
-            echo "<img class='imageDefis' src="."./.."."$defi[image] alt=$defi[titre]>";
+            echo "<img class='imageDefis' src="."."."$defi[image] alt=$defi[titre]>";
 
             echo "<div class='unDefisInfoCourte'>";
             echo "<h2>$defi[titre]</h2>";
@@ -37,7 +39,7 @@
             echo "<h2>$defi[titre]</h2>";
             echo "<h3>".ucfirst($defi["corps"])."</h3>";
             echo "<p>$defi[description]</p>";
-            echo "<a href="."./.."."$defi[lien]>";
+            echo "<a href="."."."$defi[lien]>";
             echo "<input type='submit' value='$defi[texteBouton]'>";
             echo "</a>";
             echo "</div>";
