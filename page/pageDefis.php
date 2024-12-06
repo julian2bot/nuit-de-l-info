@@ -8,7 +8,7 @@
         $defis = $lesDefis[$_GET["defis"]];
         if($_SESSION["user"]["score"] >= $defis["scoreNecessaire"]){
             incrementScore($defis);
-            header("Location:/");
+            header("Location:../");
         }
     }
 
