@@ -102,3 +102,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+document.getElementById("menuMessage").addEventListener("click",function(){
+    document.getElementById("menuMessage").style.display="none";
+})
+
+document.getElementById("help").addEventListener("click",function(){
+    document.getElementById("menuMessage").style.display="block";
+})

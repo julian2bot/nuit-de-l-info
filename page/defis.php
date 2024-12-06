@@ -6,6 +6,8 @@
 
 
     echo "<p id='leScore'>".$_SESSION["user"]["score"]."</p>";
+
+    echo "<button id='help'>Aides</button>";
     
 ?>
 
