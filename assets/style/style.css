@@ -7,11 +7,11 @@ body{
     height: 200vh;
     /* background-color:#68BEEB; */
     background-color:#79CEF7;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #bodyBase{
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 .ciel{
@@ -236,11 +236,14 @@ div{
 }
 
 #lesTextes{
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
 #lesTextes p{
-    margin: 5px;
+    margin: 10px;
+    max-width: 50%;
 }
 
 #boutonValider{

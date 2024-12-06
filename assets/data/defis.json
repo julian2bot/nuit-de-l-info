@@ -5,7 +5,7 @@
         "lien" : "/page/pageDefis.php?defis=Défi1",
         "titre" : "Defi 1",
         "description" : "Il y a un problème ici",
-        "corps" : "mon coeur",
+        "corps" : "mes poumons",
         "texteBouton" : "Résoudre le problème",
         "defi":{
             "video" : "/assets/videos/test.mp4",
@@ -18,13 +18,13 @@
         "scoreNecessaire" : 1,
         "lien" : "/page/pageDefis.php?defis=Défi2",
         "titre" : "Defi 2",
-        "description" : "Aussi ici",
-        "corps" : "mes poumon",
+        "description" : "Il y a un problème ici",
+        "corps" : "mes reins",
         "texteBouton" : "Résoudre ce problème là",
         "defi":{
             "video" : "/assets/videos/test.mp4",
-            "texte" : ["jnbejde"],
-            "script" : "/assets/script/jeu1.js"
+            "texte" : ["Dans ce jeu, nous simulons le rôle des écosystèmes marins, tels que les mangroves et les récifs coralliens, qui agissent comme les reins de l'océan en filtrant les polluants et les déchets. En attrapant les sacs poubelles tombant du ciel, le joueur expérimente de manière interactive l'importance de réduire la pollution pour préserver ces zones vitales. Ce concept ludique vise à sensibiliser le public à la nécessité d'agir pour protéger les océans, garants de l’équilibre écologique et de la santé planétaire."],
+            "script" : "/assets/script/jeu2.js"
         }
     }
 }
