@@ -197,6 +197,12 @@ div{
     left: 10px;
     z-index: 11;
 }
+#reset{
+    position: fixed;
+    top: 30px;
+    left: 10px;
+    z-index: 11;
+}
 
 /* page défis */
 
