@@ -10,6 +10,10 @@ body{
 
 }
 
+#bodyBase{
+    overflow-x:hidden;
+}
+
 .ciel{
     width: 150vw;
     /* height: 500px; */
@@ -192,4 +196,45 @@ div{
     top: 10px;
     left: 10px;
     z-index: 11;
+}
+#reset{
+    position: fixed;
+    top: 30px;
+    left: 10px;
+    z-index: 11;
+}
+
+/* page défis */
+
+#pageDefis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#pageDefis video{
+    height: 50vh;
+}
+
+#gameCanva{
+    height: 50vh;
+    width: 50vw;
+    border: solid black 3px;
+}
+
+#lesTextes{
+    text-align: center;
+}
+
+#lesTextes p{
+    margin: 5px;
+}
+
+#boutonValider{
+    margin: 10px;
+}
+
+#retourHome{
+    position: fixed;
 }

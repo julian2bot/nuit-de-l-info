@@ -10,10 +10,13 @@
     <title>Nuit de l'info</title>
     <link rel="stylesheet" type="text/css" href="assets/style/meteo.css" />
     <link rel="stylesheet" href="assets/style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/script/defis.js"></script>
 
 </head>
 
-<body style="overflow-x:hidden;">
+<body id="bodyBase">
     <div  class="ciel weather-box ensoleille" id="weatherDiv">
     <!-- meteo -->
         <p>Météo ensoleillée par défaut...</p>
