@@ -72,6 +72,18 @@
 <?php
     require_once __DIR__."/./page/defis.php";
 ?>
+
+<?php
+  for ($i = 0; $i < 5; $i++) {
+        echo '<img id="imagetortue' . $i . '" class="movingImage" src="assets/images/poissons/tortue-de-mer.gif" alt="Image">';
+        echo '<img id="imagepoisson3' . $i . '" class="movingImage" src="assets/images/poissons/poisson3.gif" alt="Image">';
+        echo '<img id="imagepoisson2' . $i . '" class="movingImage" src="assets/images/poissons/poisson2.gif" alt="Image">';
+        echo '<img id="imagepoisson' . $i . '" class="movingImage" src="assets/images/poissons/poisson.gif" alt="Image">';
+        echo '<img id="imagepoisson-clown' . $i . '" class="movingImage" src="assets/images/poissons/poisson-clown.gif" alt="Image">';
+        echo '<img id="imagehippocampe' . $i . '" class="movingImage" src="assets/images/poissons/hippocampe.gif" alt="Image">';
+  }
+  ?>
+<script src="assets/script/poisson.js"></script>
 <script src="assets/script/meteo.js"></script>
 </body>
 </html>

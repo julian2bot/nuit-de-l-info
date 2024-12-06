@@ -60,7 +60,7 @@
             echo "<p>$texte</p>";
         }
         echo "</div>";
-        echo "<div id='gameCanva'></div>";
+
         echo "<form action='' method='POST'>";
         echo "<input type='hidden' name='defis' value=$_GET[defis]>";
         echo "<input type='hidden' name='validation' value='true'>";
