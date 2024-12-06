@@ -1,20 +1,30 @@
 {
     "Défi1":{
-        "image" : "./assets/images/defis/poisson_bleu.png",
+        "image" : "/assets/images/defis/poisson_bleu.png",
         "scoreNecessaire" : 0,
-        "lien" : "./page/pageDefis.php?defis=Défi1",
+        "lien" : "/page/pageDefis.php?defis=Défi1",
         "titre" : "Defi 1",
         "description" : "Il y a un problème ici",
-        "corps" : "Partie du Coeur",
-        "texteBouton" : "Résoudre le problème"
+        "corps" : "mes poumons",
+        "texteBouton" : "Résoudre le problème",
+        "defi":{
+            "video" : "/assets/videos/test.mp4",
+            "texte" : ["Dans ce jeu, le joueur explore le rôle des océans comme système respiratoire de la planète, à travers un défi de résolution de tuyaux représentant les échanges gazeux. Le but est de rétablir le cheminement du dioxyde de carbone et de l'oxygène, reflétant les processus de photosynthèse marine et de dissolution du CO₂. Ce jeu interactif met en lumière l'importance des océans dans la régulation de l'atmosphère et souligne les impacts négatifs de leur déséquilibre sur la santé globale."],
+            "script" : "/assets/script/jeu1.js"
+        }
     },
     "Défi2":{
-        "image" : "./assets/images/defis/poisson_rouge.png",
+        "image" : "/assets/images/defis/poisson_rouge.png",
         "scoreNecessaire" : 1,
-        "lien" : "./page/pageDefis.php?defis=Défi2",
+        "lien" : "/page/pageDefis.php?defis=Défi2",
         "titre" : "Defi 2",
-        "description" : "Aussi ici",
-        "corps" : "Partie du poumon",
-        "texteBouton" : "Résoudre ce problème là"
+        "description" : "Il y a un problème ici",
+        "corps" : "mes reins",
+        "texteBouton" : "Résoudre ce problème là",
+        "defi":{
+            "video" : "/assets/videos/test.mp4",
+            "texte" : ["Dans ce jeu, nous simulons le rôle des écosystèmes marins, tels que les mangroves et les récifs coralliens, qui agissent comme les reins de l'océan en filtrant les polluants et les déchets. En attrapant les sacs poubelles tombant du ciel, le joueur expérimente de manière interactive l'importance de réduire la pollution pour préserver ces zones vitales. Ce concept ludique vise à sensibiliser le public à la nécessité d'agir pour protéger les océans, garants de l’équilibre écologique et de la santé planétaire."],
+            "script" : "/assets/script/jeu2.js"
+        }
     }
 }
