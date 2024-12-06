@@ -40,3 +40,38 @@
 .unDefis.close .unDefisInfo{
     display: none;
 }
+
+/* page défis */
+
+#pageDefis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#pageDefis video{
+    height: 50vh;
+}
+
+#gameCanva{
+    height: 50vh;
+    width: 50vw;
+    border: solid black 3px;
+}
+
+#lesTextes{
+    text-align: center;
+}
+
+#lesTextes p{
+    margin: 5px;
+}
+
+#boutonValider{
+    margin: 10px;
+}
+
+#retourHome{
+    position: fixed;
+}

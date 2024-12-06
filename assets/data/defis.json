@@ -6,7 +6,11 @@
         "titre" : "Defi 1",
         "description" : "Il y a un problème ici",
         "corps" : "Partie du Coeur",
-        "texteBouton" : "Résoudre le problème"
+        "texteBouton" : "Résoudre le problème",
+        "defi":{
+            "video" : "/assets/videos/test.mp4",
+            "texte" : ["jnbejde","uhdygeyg"]
+        }
     },
     "Défi2":{
         "image" : "/assets/images/defis/poisson_rouge.png",
@@ -15,6 +19,10 @@
         "titre" : "Defi 2",
         "description" : "Aussi ici",
         "corps" : "Partie du poumon",
-        "texteBouton" : "Résoudre ce problème là"
+        "texteBouton" : "Résoudre ce problème là",
+        "defi":{
+            "video" : "/assets/videos/test.mp4",
+            "texte" : ["jnbejde"]
+        }
     }
 }
