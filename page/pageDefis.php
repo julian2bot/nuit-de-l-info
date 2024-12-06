@@ -59,16 +59,16 @@
         foreach($defis["defi"]["texte"] as $texte){
             echo "<p>$texte</p>";
         }
+        echo "</div>";
+        echo "<div id='gameCanva'></div>";
         echo "<form action='' method='POST'>";
         echo "<input type='hidden' name='defis' value=$_GET[defis]>";
         echo "<input type='hidden' name='validation' value='true'>";
         echo "<div id='divBoutons'></div>";
-        echo "<input id='boutonValider' type='submit' value='Valider le défi'>";
+        echo "<input id='boutonValider' type='submit' value='Valider le défi' disabled>";
         echo "</form>";
-        echo "</div>";
         echo "</div>";
         echo "</body>";
         echo "<script src="."./..".$defis["defi"]["script"]."></script>";
-        
     }
 ?>
