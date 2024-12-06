@@ -7,7 +7,7 @@ const fishCount = 5;
             id: `imagehippocampe${i}`,
             positionX: Math.random() * window.innerWidth, // Position initiale aléatoire
             direction: 1 + Math.random() * 2, // Vitesse aléatoire entre 1 et 3
-            top: Math.random() * (window.innerHeight - 50) // Position verticale aléatoire
+            top : 500 + Math.random() * (window.innerHeight * 2 - 500)
         });
     }
     for (let i = 0; i < fishCount; i++) {
@@ -15,7 +15,7 @@ const fishCount = 5;
             id: `imagepoisson-clown${i}`,
             positionX: Math.random() * window.innerWidth, // Position initiale aléatoire
             direction: 1 + Math.random() * 2, // Vitesse aléatoire entre 1 et 3
-            top: Math.random() * (window.innerHeight - 50) // Position verticale aléatoire
+            top : 500 + Math.random() * (window.innerHeight * 2 - 500)
         });
     }
     for (let i = 0; i < fishCount; i++) {
@@ -23,7 +23,7 @@ const fishCount = 5;
             id: `imagepoisson${i}`,
             positionX: Math.random() * window.innerWidth, // Position initiale aléatoire
             direction: 1 + Math.random() * 2, // Vitesse aléatoire entre 1 et 3
-            top: Math.random() * (window.innerHeight - 50) // Position verticale aléatoire
+            top : 500 + Math.random() * (window.innerHeight * 2 - 500)
         });
     }
     for (let i = 0; i < fishCount; i++) {
@@ -31,7 +31,7 @@ const fishCount = 5;
             id: `imagepoisson2${i}`,
             positionX: Math.random() * window.innerWidth, // Position initiale aléatoire
             direction: 1 + Math.random() * 2, // Vitesse aléatoire entre 1 et 3
-            top: Math.random() * (window.innerHeight - 50) // Position verticale aléatoire
+            top : 500 + Math.random() * (window.innerHeight * 2 - 500)
         });
     }
     for (let i = 0; i < fishCount; i++) {
@@ -39,7 +39,7 @@ const fishCount = 5;
             id: `imagepoisson3${i}`,
             positionX: Math.random() * window.innerWidth, // Position initiale aléatoire
             direction: 1 + Math.random() * 2, // Vitesse aléatoire entre 1 et 3
-            top: Math.random() * (window.innerHeight - 50) // Position verticale aléatoire
+            top : 500 + Math.random() * (window.innerHeight * 2 - 500)
         });
     }
 
@@ -48,7 +48,7 @@ const fishCount = 5;
             id: `imagetortue${i}`,
             positionX: Math.random() * window.innerWidth, // Position initiale aléatoire
             direction: 1 + Math.random() * 2, // Vitesse aléatoire entre 1 et 3
-            top: Math.random() * (window.innerHeight - 50) // Position verticale aléatoire
+            top : 500 + Math.random() * (window.innerHeight * 2 - 500)
         });
     }
 
