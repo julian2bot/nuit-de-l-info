@@ -8,7 +8,7 @@
         "corps" : "mes poumons",
         "texteBouton" : "Résoudre le problème",
         "defi":{
-            "video" : "/assets/videos/reins.mp4",
+            "video" : "https://www.youtube.com/watch?v=dR2EFazLUEw",
             "texte" : ["Dans ce jeu, le joueur explore le rôle des océans comme système respiratoire de la planète, à travers un défi de résolution de tuyaux représentant les échanges gazeux. Le but est de rétablir le cheminement du dioxyde de carbone et de l'oxygène, reflétant les processus de photosynthèse marine et de dissolution du CO₂. Ce jeu interactif met en lumière l'importance des océans dans la régulation de l'atmosphère et souligne les impacts négatifs de leur déséquilibre sur la santé globale."],
             "script" : "/assets/script/jeu1.js"
         }
@@ -22,7 +22,7 @@
         "corps" : "mes reins",
         "texteBouton" : "Résoudre ce problème là",
         "defi":{
-            "video" : "/assets/videos/poumons.mp4",
+            "video" : "https://youtu.be/kgQiyw3Nu0I",
             "texte" : ["Dans ce jeu, nous simulons le rôle des écosystèmes marins, tels que les mangroves et les récifs coralliens, qui agissent comme les reins de l'océan en filtrant les polluants et les déchets. En attrapant les sacs poubelles tombant du ciel, le joueur expérimente de manière interactive l'importance de réduire la pollution pour préserver ces zones vitales. Ce concept ludique vise à sensibiliser le public à la nécessité d'agir pour protéger les océans, garants de l’équilibre écologique et de la santé planétaire."],
             "script" : "/assets/script/jeu2.js"
         }

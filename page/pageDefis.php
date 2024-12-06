@@ -56,9 +56,21 @@
         echo "<a id='retourHome' href='./../'>Retour</a>";
         echo "<div id='pageDefis'>";
         echo "<h1>Sauvez $defis[corps]</h1>";
-        echo "<video controls autoplay>";
-        echo "<source src="."./..".$defis["defi"]["video"]." type='video/mp4'></source>";
-        echo "</video>";
+        // echo "<video controls autoplay>";
+        // // echo "<source src="."./..".$defis["defi"]["video"]." type='video/mp4'></source>";
+        // echo "<source src=".$defis["defi"]["video"]." type='video/mp4'></source>";
+        // echo "</video>";
+
+        echo '<iframe 
+            width="560" 
+            height="315" 
+            src="'.$defis["defi"]["video"].'" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>';
+
         echo "<div id='lesTextes'>";
         foreach($defis["defi"]["texte"] as $texte){
             echo "<p>$texte</p>";
