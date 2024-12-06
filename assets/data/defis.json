@@ -9,7 +9,7 @@
         "texteBouton" : "Résoudre le problème",
         "defi":{
             "video" : "/assets/videos/test.mp4",
-            "texte" : ["jnbejde","uhdygeyg"],
+            "texte" : ["Dans ce jeu, le joueur explore le rôle des océans comme système respiratoire de la planète, à travers un défi de résolution de tuyaux représentant les échanges gazeux. Le but est de rétablir le cheminement du dioxyde de carbone et de l'oxygène, reflétant les processus de photosynthèse marine et de dissolution du CO₂. Ce jeu interactif met en lumière l'importance des océans dans la régulation de l'atmosphère et souligne les impacts négatifs de leur déséquilibre sur la santé globale."],
             "script" : "/assets/script/jeu1.js"
         }
     },
