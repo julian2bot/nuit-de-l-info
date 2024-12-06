@@ -1,3 +1,6 @@
+<?php
+    require_once __DIR__."/./utils/start.php";
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -63,13 +66,9 @@
     </div>
     
 </div>
-
-<script src="assets/script/meteo.js"></script>
-
-</body>
-</html>
-
-
 <?php
     require_once __DIR__."/./page/defis.php";
 ?>
+<script src="assets/script/meteo.js"></script>
+</body>
+</html>
