@@ -142,6 +142,9 @@
         echo '<img id="imagehippocampe' . $i . '" class="movingImage" src="assets/images/poissons/hippocampe.gif" alt="Image">';
   }
   ?>
+
+<img id="imageLyreco" style="height:100px;" src="assets/images/poissons/fishlyreco.png" alt="Image">';
+
 <script src="assets/script/poisson.js"></script>
 <script src="assets/script/meteo.js"></script>
 

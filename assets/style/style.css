@@ -273,6 +273,15 @@ div{
     transform: translateY(-50%);
 }
 
+
+#imageLyreco{
+    position: absolute; /* Position absolue pour permettre le déplacement */
+    top: 0;
+    left: 0;
+    width: 100px; /* Taille de l'image */
+    height: auto;
+
+
 #menuMessage{
     width: 50%;
     min-width: 50%;
@@ -290,4 +299,5 @@ div{
 
 #menuMessage h1{
     margin-bottom: 20px;
+
 }
