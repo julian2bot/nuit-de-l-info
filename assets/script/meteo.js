@@ -88,7 +88,10 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!cityInput.classList.contains("hidden")) {
             cityInput.focus();
         }
+        else
+            cityInput.classList.remove("hidden");
     });
+
 
     // Récupérer la météo pour la ville saisie
     cityInput.addEventListener("keydown", async (e) => {
@@ -103,10 +106,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-document.getElementById("menuMessage").addEventListener("click",function(){
-    document.getElementById("menuMessage").style.display="none";
-})
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("menuMessage").addEventListener("click",function(){
+        document.getElementById("menuMessage").style.display="none";
+    })
 
-document.getElementById("help").addEventListener("click",function(){
-    document.getElementById("menuMessage").style.display="block";
-})
+    document.getElementById("help").addEventListener("click",function(){
+        document.getElementById("menuMessage").style.display="block";
+    })
+});
