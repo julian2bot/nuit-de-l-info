@@ -44,7 +44,9 @@ if (navigator.geolocation) {
             return "nuageux"; // Par défaut si le type n'est pas reconnu
         }
 
+            
         const category = categorizeWeather(weatherType);
+      
 
         // Changer l'apparence de la météo
         const weatherDiv = document.getElementById("weatherDiv");
@@ -63,7 +65,7 @@ if (navigator.geolocation) {
             weatherDiv.querySelector("p").textContent = weatherText;
         
             // Met à jour l'image
-            weatherImage.src = `../assets/images/${category}.gif`;
+            weatherImage.src = `assets/images/${category}.gif`;
             weatherImage.alt = category;
         
             // Réapparition du div

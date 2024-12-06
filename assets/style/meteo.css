@@ -3,28 +3,47 @@ body {
 }
 
 /* Styles de base pour le div météo */
-.weather-box {
+/* .weather-box {
     width: 100%;
     height: 200px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start; /* Aligner les éléments à gauche */
-    justify-content: flex-end; /* Placer les éléments en haut */
+    align-items: flex-start; 
+    justify-content: flex-end;  
     background-size: cover;
     color: white;
-    font-size: 18px; /* Taille du texte réduite */
+    font-size: 18px; 
     font-weight: bold;
-    padding: 10px; /* Espacement autour du contenu */
+    padding: 10px;  
     transition: background-color 0.3s, background-image 0.3s, opacity 0.5s ease-in-out;
-    opacity: 1; /* Visible par défaut */
+    opacity: 1;  
+} */
+
+.weather-box {
+    height: 50vh;
+    background-size: cover;
+    color: white;
+    font-size: 18px; 
+    font-weight: bold;
+    padding: 10px;  
+    animation: lancement 4s forwards ease-in-out;
+    transition: background-color 0.3s, background-image 0.3s, opacity 0.5s ease-in-out;
+    opacity: 1;  
 }
 
 .weather-box p {
     margin-top: 1.5em;
+    max-width: 250px;
+    position: absolute;
+    top: 0;
+    left: calc(100vw - 110px - 250px);
 }
 
 /* Réduire la taille de l'image */
 .weather-box img {
+    position: absolute;
+    top: 0;
+    left: calc(100vw - 110px);
     width: 100px; /* Limite à 100px */
     height: auto; /* Maintenir les proportions */
     margin-bottom: 5px; /* Espacement entre l'image et le texte */
@@ -50,4 +69,16 @@ body {
 
 .orage {
     background: linear-gradient(#536069, #a6a6a6); /* Gris foncé */
+}
+
+
+
+
+@keyframes lancement {
+    0% {
+        height: 100vh;
+    }
+    100% {
+        height: 50vh;
+    }
 }
