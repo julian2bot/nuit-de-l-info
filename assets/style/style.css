@@ -146,6 +146,8 @@ body{
 /* Défis */
 
 .imageDefis{
+    margin-top: 4vh ;
+    margin-bottom: 4vh ;
     height: 10vh;
     cursor: pointer;
 }
@@ -163,16 +165,23 @@ body{
 }
 
 .unDefisInfo{
+    padding:10px ;
+    border-radius: 10px;
     width: 10vw;
     height: 20vh;
-    background-color: red;
+    background-color: rgb(117 206 199 / 60%);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .unDefisInfoCourte{
+    padding: 10px;
+    border-radius: 10px;
     width: 8vw;
     min-height: 10vh;
-    background-color: blue;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: rgb(131, 168, 228);
 }
+
 
 .unDefis .unDefisInfoCourte{
     display: none;
