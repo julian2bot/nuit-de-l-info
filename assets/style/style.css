@@ -10,6 +10,10 @@ body{
 
 }
 
+#bodyBase{
+    overflow-x:hidden;
+}
+
 .ciel{
     width: 150vw;
     /* height: 500px; */

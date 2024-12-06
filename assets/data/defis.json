@@ -23,7 +23,8 @@
         "texteBouton" : "Résoudre ce problème là",
         "defi":{
             "video" : "/assets/videos/test.mp4",
-            "texte" : ["jnbejde"]
+            "texte" : ["jnbejde"],
+            "script" : "/assets/script/jeu1.js"
         }
     }
 }
