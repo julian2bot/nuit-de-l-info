@@ -60,6 +60,7 @@
             echo "<p>$texte</p>";
         }
         echo "</div>";
+
         echo "<form action='' method='POST'>";
         echo "<input type='hidden' name='defis' value=$_GET[defis]>";
         echo "<input type='hidden' name='validation' value='true'>";
@@ -69,6 +70,5 @@
         echo "</div>";
         echo "</body>";
         echo "<script src="."./..".$defis["defi"]["script"]."></script>";
-        
     }
 ?>
