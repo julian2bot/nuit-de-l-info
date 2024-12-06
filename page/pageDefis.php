@@ -38,7 +38,7 @@
                 <title>Nuit de l\'info</title>
             </head>
             ';
-            ob_start(); // Active un buffer de sortie pour Ã©viter l'envoi involontaire d'en-tÃªtes
+            ob_start(); // Active un buffer de sortie pour éviter l'envoi involontaire d'en-têtes
             pageDefis($defis);
             ob_end_flush(); // Vide le buffer et envoie la sortie
         }
@@ -81,7 +81,7 @@
         echo "<input type='hidden' name='defis' value=$_GET[defis]>";
         echo "<input type='hidden' name='validation' value='true'>";
         echo "<div id='divBoutons'></div>";
-        echo "<input id='boutonValider' type='submit' value='Valider le dÃ©fi' disabled>";
+        echo "<input id='boutonValider' type='submit' value='Valider le défi' disabled>";
         echo "</form>";
         echo "</div>";
         echo "</body>";
