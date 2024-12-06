@@ -57,7 +57,8 @@ function preload ()
     
     this.load.image('droit', '../assets/images/game/Tuyaux1.png'); // Un tuyau droit
     this.load.image('coude', '../assets/images/game/Tuyaux2.png'); // Un tuyau coudé
-    this.load.image('tuyau_triple', '../assets/images/game/Tuyaux2.png'); // Un tuyau coudé
+    this.load.image('debut', '../assets/images/game/debut.png'); 
+    this.load.image('sortie', '../assets/images/game/sortie.png'); 
 
 }
 
@@ -162,19 +163,24 @@ function create() {
 
     const rows = 5;
     const cols = 5;
-    const tileSize = 100;
+    const tileSize = 50;
+    const debut = 100;
+    // let row = 0;
+    // let col = 0;
+
+    this.add.sprite(debut + -1 * tileSize + tileSize / 2,debut +  0 * tileSize + tileSize / 2, "debut");
+
 
     for (let row = 0; row < rows; row++) {
         tuyaux[row] = [];
         for (let col = 0; col < cols; col++) {
-            const tuyau = this.add.sprite(col * tileSize + tileSize / 2, row * tileSize + tileSize / 2, confBase[row][col]["type"]);
+            const tuyau = this.add.sprite(debut + col * tileSize + tileSize / 2,debut +  row * tileSize + tileSize / 2, confBase[row][col]["type"]);
             tuyau.rotation = confBase[row][col]["rotation"] * Math.PI / 2;
             tuyau.setInteractive();
             tuyaux[row][col] = tuyau;
-
             tuyau.on('pointerdown', () => {
                 tuyau.rotation += Math.PI / 2;
-                if(confBase[row][col]["type"] == "coude")
+                if(plateau[row][col]["type"] == "coude")
                     plateau[row][col]["rotation"] = (plateau[row][col]["rotation"]+1)%4
                 else
                 plateau[row][col]["rotation"] = (plateau[row][col]["rotation"]+1)%2
@@ -185,7 +191,7 @@ function create() {
             });
         }
     }
-
+    this.add.sprite(debut + 5 * tileSize + tileSize / 2,debut +  4 * tileSize + tileSize / 2, "sortie");
 }
 
 
