@@ -266,3 +266,12 @@ div{
     top: 50%;
     transform: translateY(-50%);
 }
+
+#imageLyreco{
+    position: absolute; /* Position absolue pour permettre le déplacement */
+    top: 0;
+    left: 0;
+    width: 100px; /* Taille de l'image */
+    height: auto;
+
+}
