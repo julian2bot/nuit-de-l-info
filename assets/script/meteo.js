@@ -76,3 +76,11 @@ if (navigator.geolocation) {
 } else {
     console.error("La géolocalisation n'est pas supportée par ce navigateur.");
 }
+
+document.getElementById("menuMessage").addEventListener("click",function(){
+    document.getElementById("menuMessage").style.display="none";
+})
+
+document.getElementById("help").addEventListener("click",function(){
+    document.getElementById("menuMessage").style.display="block";
+})

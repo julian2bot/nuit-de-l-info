@@ -4,6 +4,8 @@
     echo "<a id='reset' href='./page/resetPoint.php'>Reset Point</a>";
 
     echo "<p id='leScore'> Score : ".$_SESSION["user"]["score"]."</p>";
+
+    echo "<button id='help'>Aides</button>";
     
 ?>
 
