@@ -2,7 +2,7 @@
     print_r($_SESSION);
     echo "<a href='./page/resetPoint.php'>Reset Point</a>";
 
-    echo "<p id='leScore'> Score : ".$_SESSION["user"]["score"]."</p>";
+    echo "<p id='leScore'>".$_SESSION["user"]["score"]."</p>";
     
 ?>
 
