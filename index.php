@@ -7,6 +7,9 @@
     <title>Nuit de l'info</title>
     <link rel="stylesheet" type="text/css" href="assets/style/meteo.css" />
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="./assets\style\style.css">
+    <script src="./assets/script/defis.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
 
 </head>
 

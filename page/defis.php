@@ -20,7 +20,7 @@
             else{
                 echo "<div class='unDefis close'>";
             }
-            echo "<img class='imageDefis' src=$defi[image] alt=$defi[titre]>";
+            echo "<img class='imageDefis' src="."./.."."$defi[image] alt=$defi[titre]>";
 
             echo "<div class='unDefisInfoCourte'>";
             echo "<h2>$defi[titre]</h2>";
